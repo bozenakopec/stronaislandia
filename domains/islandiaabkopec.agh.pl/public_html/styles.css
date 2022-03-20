@@ -1,0 +1,85 @@
+body {
+    background-image: url("tlo1.jpg");
+	background-size: cover;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	color: #0A141A;
+	font-family: helvetica,arial, sans-serif;
+	margin: 0;
+}
+
+#pojemnik {
+    width: 900px;
+	margin: 0 auto 20px;
+	}
+.list ul{
+	overflow: hidden;
+}
+.list li {
+	float: left;
+	list-style-type:none;
+}
+.list a{
+	padding: 0 16px;
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+.list a:hover{
+	color: #555;
+}
+
+.list li + li{
+	border-left: 1px solid #aaa;
+}
+h1  {
+font-family: Papyrus, fantasy;
+	font-size: 100px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align:center;}
+a{
+margin-bottom:12px;
+text-align: justify;
+float: left;
+	padding: 10px;
+	border-radius: 20px 0;
+	box-shadow:0 12px 8px -9px #1F3D4C;
+}
+	
+a[name=informacje]  {
+	background-color:  #fff;
+	opacity: 0.9;
+	}
+a[name=historia]  {
+	background-color:  yellow;
+	opacity: 0.8;
+	}
+a[name=zabytki]  {
+	background-color:  orange;
+	opacity: 0.8;
+	}
+a[name=turystyka]  {
+	background-color:  red;
+	opacity: 0.8;
+	}
+a img{
+width: 500px;
+opacity: 0.8;
+float:right;}
+
+img:hover {
+    opacity: 1.0;
+	}
+
+footer{
+background-color:  #fff;
+margin-bottom:12px;
+text-align: justify;
+overflow: auto;
+	padding: 12px;
+	border-radius: 20px 0;
+box-shadow:0 12px 8px -9px #1F3D4C;
+	
+
